@@ -3,55 +3,71 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-low-bom-mic-interface-using-opamp",
+        "version": "1.0.0",
+        "displayName": "Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) Peripheral",
+        "projectName": "avr128db48-low-bom-mic-interface-using-opamp",
+        "shortDescription": "This Atmel Studio 7 bare metal example in Low-BOM Microphone Interface Using the Analog Signal Conditioning (OPAMP) (AN3631) shows how to interface an electret microphone with a microcontroller (MCU) using the OPAMP. In addition to the microphone, only one resistor and one capacitor are required. The OPAMP also provides the ability to adjust the gain under firmware control.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR-GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.3.67"
         },
-        "configurator": {
-            "name": "",
+		"configurator": {
+        	"name": "N/A",
             "semverRange": ""
-        },
+		},
         "device": {
             "metaDataVersion": "1.0.0",
             "category": "com.microchip.portal.contentRef",
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+               "Peripherals", "OPAMP"
+            ],
+			[
+               "Peripherals", "ADC"
+            ],
+			[
+               "Peripherals", "AC"
             ],
             [
-               "Peripherals", ""
+               "Development Kit", "AVR128DB48 Curiosity Nano"
             ]            			
         ],
         "peripherals": [
-            "",""
+            "OPAMP", "ADC", "AC"
         ],
         "keywords": [
-            "",
-            ""			
+			"Analog Signal Conditioning",
+			"Operational Amplifier",
+			"Op Amp",
+			"Resistor Ladder",
+			"Electret Microphone",
+			"Amplifier",
+			"Adjustable Gain",
+			"Programmable Gain",
+			"Low BOM",
+			"PGA",
+			"AVR-DB",
+			"AVRDB",
+			"low-bom-mic-interface-using-opamp"
         ],
 		"additionalData": {
 			"longDescription": {
